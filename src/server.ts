@@ -22,6 +22,6 @@ app.use((err: Error, request: Request, response: Response, next: NextFunction) =
         status: "error",
         message: "Internal Server Error"
     })
-})
+});
 
 app.listen(3000, () => console.log("listening on port 3000"));
